@@ -1,3 +1,15 @@
+# return masked string
+def maskify(cc):
+    y = len(cc)
+    p = y - 4
+    
+    list[cc]
+    i = cc[-4:]
+    k = "".join(i)
+    
+    return "#" * p + k
+
+____________________________________________________________________________
 
 Usually when you buy something, you're asked whether your credit card number, phone number or answer to your most secret question is still correct. However, since someone could look over your shoulder, you don't want that shown on your screen. Instead, we mask it.
 
@@ -16,15 +28,6 @@ Examples
 "Nananananananananananananananana Batman!"
 -->
 "####################################man!"
-____________________________________________________________________________
 
-# return masked string
-def maskify(cc):
-    y = len(cc)
-    p = y - 4
-    
-    list[cc]
-    i = cc[-4:]
-    k = "".join(i)
-    
-    return "#" * p + k
+
+
